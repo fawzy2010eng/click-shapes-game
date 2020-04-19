@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.first{
+    padding-top: 30px;
+    width: 70%;
+    margin: auto;
+}
+.first button,.third button{
+    background-color: purple;
+    border-radius: 9px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.second{
+    display: none
+}
+.second .circle{
+    border-radius: 50%;
+    position: absolute;
+}
+.third{
+    display: none
+}
+.third button{
+    position: absolute;
+    top: 30xp;
+    left: 0;
+}
